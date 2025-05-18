@@ -64,10 +64,12 @@ export default function Home() {
                                     <ChevronRight size={20} className="ml-1" />
                                 </button>
                             </Link>
-                            <button className="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition border border-blue-200 flex items-center">
-                                Track Your Case
-                                <Search size={18} className="ml-1" />
-                            </button>
+                            <Link href="/TrackingPage">
+                                <button className="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition border border-blue-200 flex items-center">
+                                    Track Your Case
+                                    <Search size={18} className="ml-1" />
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="hidden md:block">
